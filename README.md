@@ -9,10 +9,10 @@ From the cleaned, noise-filtered covariance matrix, the project then constructs 
 The significance of this work lies in its practical impact on portfolio optimization. Noise in covariance matrices is a well-documented source of instability in methods like Markowitz mean-variance optimization, often leading to extreme, unstable portfolio weights. By applying RMT-based filtering, this project demonstrates a principled and mathematically rigorous way to construct portfolios that are more stable, more interpretable, and better suited to out-of-sample performance.
 
 # Key Concepts:
-Empirical Covariance Matrix: Estimated from finite historical returns data. Contains both signal and noise.
-Marchenko-Pastur Distribution: The theoretical eigenvalue distribution of a pure random (Wishart) matrix. Acts as a "noise benchmark"
-Eigenportfolios: Portfolios formed from eigenvectors of the covariance matrix. Each eigenvector defines an uncorrelated risk factor.
-RMT Filtering: Eigenvalues within the Marchenko-Pastur bounds are considered noise; those above the upper bound carry genuine market signal.
+1. [Empirical Covariance Matrix:] Estimated from finite historical returns data {contains both signal and noise}.
+2. [Marchenko-Pastur Distribution:] The theoretical eigenvalue distribution of a pure random (Wishart) matrix {acts as a "noise benchmark"}.
+3. [Eigenportfolios:] Portfolios formed from eigenvectors of the covariance matrix {each eigenvector defines an uncorrelated risk factor}.
+4. [RMT Filtering:] Eigenvalues within the Marchenko-Pastur bounds are considered noise; those above the upper bound carry genuine market signal.
 
 # Workflow:
 1. Simulate realistic correlated returns (or load real data)
