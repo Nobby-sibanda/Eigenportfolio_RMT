@@ -10,7 +10,7 @@ The significance of this work lies in its practical impact on portfolio optimiza
 
 # Key Concepts:
 Empirical Covariance Matrix: Estimated from finite historical returns data. Contains both signal and noise.
-Marchenko-Pastur Distribution: The theoretical eigenvalue distribution of a pure random (Wishart) matrix. Acts as a "noise benchmark".
+Marchenko-Pastur Distribution: The theoretical eigenvalue distribution of a pure random (Wishart) matrix. Acts as a "noise benchmark"
 Eigenportfolios: Portfolios formed from eigenvectors of the covariance matrix. Each eigenvector defines an uncorrelated risk factor.
 RMT Filtering: Eigenvalues within the Marchenko-Pastur bounds are considered noise; those above the upper bound carry genuine market signal.
 
